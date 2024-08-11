@@ -10,7 +10,6 @@ terraform {
     bucket         = "prathmesh-us-east-2"
     region         = "us-east-2"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Test"
     encrypt        = true
   }
 }
